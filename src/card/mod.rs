@@ -4,7 +4,7 @@ pub mod rank;
 pub use rank::Rank;
 pub use suit::Suit;
 
-#[derive(Debug)]
+#[derive(Debug,Copy,Clone)]
 pub struct Card {
     rank: Rank,
     suit: Suit

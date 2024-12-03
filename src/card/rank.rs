@@ -9,6 +9,7 @@ pub enum Rank {
     SEVEN,
     EIGHT,
     NINE,
+    TEN,
     JACK,
     QUEEN,
     KING
@@ -25,6 +26,7 @@ impl Rank {
             Rank::SEVEN, 
             Rank::EIGHT, 
             Rank::NINE,
+            Rank::TEN,
             Rank::JACK,
             Rank::QUEEN,
             Rank::KING,
